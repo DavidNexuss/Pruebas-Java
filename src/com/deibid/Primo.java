@@ -4,7 +4,7 @@ public class Primo {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(isPrime(5213)); //en la mayoria de los casos solo se hacen menos de 10 iteraciones
+		System.out.println(isPrime(5212)); //en la mayoria de los casos solo se hacen menos de 10 iteraciones
 	}
 	
 	public static boolean isPrime(int target) {return isPrime(2, target);}
